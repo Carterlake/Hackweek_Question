@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value = "QuestionDb">
+
+    </dbname>
+
+    <version value = "9">
+
+    </version>
+    <list>
+        <mapping class="com.example.wuk.question.Question"/>
+        <mapping class="com.example.wuk.question.Answer"/>
+        <mapping class="com.example.wuk.question.Remind"/>
+    </list>
+</litepal>

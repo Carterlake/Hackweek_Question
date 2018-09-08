@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="下一餐想吃什么呀？"
+        android:textSize="21sp"
+        android:padding="20dp"
+        android:textColor="#333333"
+        android:gravity="center"/>
+
+</RelativeLayout>

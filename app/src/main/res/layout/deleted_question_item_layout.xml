@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle">
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="50dp"
+            android:textSize="18sp"
+            android:text="下一顿准备吃什么呀"
+            android:paddingTop="45dp"
+            android:textColor="#000"
+            android:maxEms="8"
+            android:singleLine="true"/>
+
+        <FrameLayout
+            android:id="@+id/btnUndo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp">
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/addquestion"/>
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

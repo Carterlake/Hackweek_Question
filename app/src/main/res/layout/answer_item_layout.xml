@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="125dp"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle">
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:gravity="center_vertical"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="8dp"
+                android:text="7/31"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:id="@+id/tvTime"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentEnd="true"
+                android:gravity="center_vertical"
+                android:layout_marginEnd="18dp"
+                android:layout_marginTop="8dp"
+                android:text="18:36"
+                android:textSize="15sp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="18dp"
+            android:textSize="16sp"
+            android:text="-- 下一顿准备吃什么呀"
+            android:gravity="center_vertical"
+            android:maxEms="12"
+            android:singleLine="true"/>
+
+        <TextView
+            android:id="@+id/tvAnswer"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="18dp"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            android:text="-- 吃炸鸡翅炸鸡腿炸丸子火锅"
+            android:maxEms="12"
+            android:singleLine="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>
